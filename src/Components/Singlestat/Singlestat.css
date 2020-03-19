@@ -1,0 +1,9 @@
+.single-stat{
+    box-shadow: 0 0 2px #00000014;
+    background-color: #fff;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+.single-stat h2{
+    line-height: 0.8em;
+}

@@ -1,0 +1,25 @@
+body{
+  background-color: #fbfbfb;
+  color: #222;
+}
+
+.country-selector{
+  display:grid;
+  justify-content:space-between;
+   grid-template-columns:2fr 1fr;
+   gap: 20px;
+}
+.country-selector select{
+  border-color: rgb(241, 241, 241);
+  border-radius: 3px;
+  padding-left: 15px;
+}
+@media only screen and  (max-width:775px){
+  .country-selector{
+    grid-template-columns: 1fr;
+  }
+  .country-selector select{
+    margin-bottom: 15px;
+    padding-left: 0;
+  }
+}
